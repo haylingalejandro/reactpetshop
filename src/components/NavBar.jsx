@@ -14,7 +14,7 @@ import PetsIcon from '@mui/icons-material/Pets';
 import CartWidget from './CartWidget';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-const pages = ['toy', 'food'];
+const pages = ['toy', 'food', 'clothe', 'hair'];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
